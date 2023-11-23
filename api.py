@@ -54,7 +54,7 @@ def register_bulk_users():
     from tkinter import Tk 
     from tkinter.filedialog import askopenfilename
     Tk().withdraw()
-    
+    print("Seleccione el archivo...")
     df = load_file(askopenfilename())
     
     if df is not None:
